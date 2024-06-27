@@ -31,6 +31,9 @@
         <PageEdit />
 
         <PageNav v-bind="{ sidebarItems }" />
+        <!--  自定义评论     -->
+        <h2 id="commentArea">评论</h2>
+        <Artalk/>
       </div>
 
       <UpdateArticle
